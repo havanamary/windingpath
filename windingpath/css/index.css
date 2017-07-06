@@ -1,0 +1,137 @@
+/*global styles winding path web200*/
+
+*{ margin: 0; padding: 0; box-sizing: border-box; 
+}            
+@font-face {
+        font-family: 'arial';
+        src: url('fonts/ArialMT.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+html {
+    background-image: url(../images/grass-1381861988cIu.jpg);
+    background-attachment: fixed;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#header{
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+svg{
+    max-width: 150px;
+    margin-left:200px;
+    margin-top: 20px;
+}
+.cta{
+    float: right;
+    max-width: 30%;
+    margin: 60px 200px 2em 2em;
+    padding:1em 2em;
+    background-color: #FF0000;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    background-size: cover;
+        
+}
+.cta a, .main a {
+        text-decoration:none;
+        color: #fff;
+}
+.main a:hover, .main a:active, .main a:visited {
+    color: #F6D6D0;
+    text-decoration: underline;
+}
+#body {
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+    width:980px;
+}
+.pageID {
+    display:none;
+}
+.home img {
+    padding-bottom: 15px;
+    width:980px;
+    height:300px;
+}    
+.main {
+    margin: 0px 13px 15px 13px;
+    color: #fff;
+    background-color: #333;
+    overflow: auto;
+    width: 300px;
+    height: 525px;
+    float:left;   
+    padding:15px;
+    
+}
+.main h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.main img {
+    width: 100%;
+    padding-bottom:15px;
+}
+footer {
+    margin-top: 15px;
+    text-align: center;
+    clear: both;
+    height: 50px;
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+}
+footer a {
+    text-decoration:none;
+    color:#fff;
+}
+/* content */
+.content a {
+    text-decoration:underline;
+    color: #333;
+}
+.content a:hover, .content a:active{
+    text-decoration: underline;
+    color: #fff;
+}
+.content {
+    width: 980px;
+    overflow: auto;
+    word-wrap: break-word;
+    min-height: 200px;
+    background-color: #E5D5B6;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.content img { 
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    float: right;
+    margin: 10px;
+}
+.content h3, .content p {
+    margin: 15px;
+    color: #333;
+}
+/*contact*/
+
+.feedback, .numbers {
+    margin-left: 20px;
+    padding: 25px;
+    background-color: #E5D5B6;
+}
+
+.feedback h3, .feedback p, .numbers h3 {
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+
